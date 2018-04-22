@@ -2,9 +2,9 @@
 
 
     <events-thumbnail
-            *ngFor="let event of events; let i = index"
+            *ngFor="let event of events"
             [attr.data-index]="i"
-            [event]="events[i]"
+            [event]="event"
             (eventClick)="Subscribe($event)"
     >
     </events-thumbnail>
