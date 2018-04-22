@@ -5,11 +5,11 @@
         <span class="year">2014</span>
         <span class="time">ALL DAY</span>
     </time>
-    <img alt="{{event.name}}" src="{{event.cover}}">
-    <a href="{{event.instructor_link}}">  <img class="right" src="{{event.instructor}}" alt=""></a>
+    <img alt="{{event?.name}}" src="{{event?.cover}}">
+    <a href="{{event?.instructor_link}}">  <img class="right" src="{{event?.instructor}}" alt=""></a>
     <div class="info">
-        <h2 class="title">{{event.name}}</h2>
-        <p class="desc">{{event.description}}</p>
+        <h2 class="title">{{event?.name}}</h2>
+        <p class="desc">{{event?.description}}</p>
         <button class="btn btn-lg pull-right" (click)="Subscribe(event)">Subscribe</button>
     </div>
 </li>
