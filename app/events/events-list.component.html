@@ -1,0 +1,13 @@
+<ul class="event-list">
+
+
+    <events-thumbnail
+            *ngFor="let event of events; let i = index"
+            [attr.data-index]="i"
+            [event]="events[i]"
+            (eventClick)="Subscribe($event)"
+    >
+    </events-thumbnail>
+
+
+</ul>
