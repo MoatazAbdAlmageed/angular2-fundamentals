@@ -127,7 +127,7 @@ li > .social > ul > li:hover {
         position: relative;
         display: block;
         width: 100%;
-        height: 120px;
+        height: 210px;
         padding: 0px;
     }
     li > time,
@@ -136,7 +136,7 @@ li > .social > ul > li:hover {
     }
     li > time,
     li > img {
-        width: 120px;
+        width: 210px;
         float: left;
     }
     li > .info {
@@ -145,8 +145,8 @@ li > .social > ul > li:hover {
     }
     li > time,
     li > img {
-        width: 120px;
-        height: 120px;
+        width: 210px;
+        height: 210px;
         padding: 0px;
         margin: 0px;
     }
@@ -156,7 +156,7 @@ li > .social > ul > li:hover {
 
     li > .info {
         position: relative;
-        height: 120px;
+        height: 210px;
         text-align: left;
         padding-right: 40px;
     }
@@ -194,5 +194,5 @@ li > .social > ul > li:hover {
 
 li > a img.right {
     float: right;
-    width: 120px;
+    width: 210px;
 }

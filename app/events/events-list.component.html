@@ -3,7 +3,6 @@
 
     <events-thumbnail
             *ngFor="let event of events"
-            [attr.data-index]="i"
             [event]="event"
             (eventClick)="Subscribe($event)"
     >
