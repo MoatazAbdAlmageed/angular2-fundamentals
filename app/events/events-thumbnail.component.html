@@ -10,6 +10,13 @@
     <div class="info">
         <h2  class="title" [ngClass]="{hidden:false}">{{event?.name}}</h2>
         <p class="desc">{{event?.description}}</p>
-        <button class="btn btn-lg pull-right" (click)="Subscribe(event)">Subscribe</button>
+        <button class="btn btn-lg pull-right" (click)="Subscribe(event)">
+            <span [ngSwitch]="event.going">
+                <span *ngSwitchCase="true">Going</span>
+                <span *ngSwitchDefault>Apply</span>
+            </span>
+
+
+        </button>
     </div>
 </li>

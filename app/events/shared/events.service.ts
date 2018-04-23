@@ -9,6 +9,7 @@ export class EventsService{
 }
 const EVENTS =  [
     {
+        "going": false,
         "@context": "http://www.schema.org",
         "@type": "Event",
         "color": "orange",
@@ -42,6 +43,7 @@ const EVENTS =  [
         }
     },
     {
+        "going": false,
         "@context": "http://www.schema.org",
         "@type": "Event",
         "name": "CSS",
@@ -77,6 +79,7 @@ const EVENTS =  [
 
 
     {
+        "going": false,
         "@context": "http://www.schema.org",
         "@type": "Event",
         "name": "Javascript",
