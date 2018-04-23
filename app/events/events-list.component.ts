@@ -19,7 +19,8 @@ export  class EventsListComponent implements  OnInit{
     Subscribe(event){
 
         event.going = !event.going;
+        if  (event.going){
         this.toastrService.fire('success',"You are going "+event.name)
-
+        }
     }
 }

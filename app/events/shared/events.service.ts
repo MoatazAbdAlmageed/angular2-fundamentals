@@ -13,7 +13,7 @@ const EVENTS =  [
         "@context": "http://www.schema.org",
         "@type": "Event",
         "color": "orange",
-        "name": "HTML",
+        "name": "HTML mohamed",
         "url": "http://www.example.com/launch-party",
         "description": "With HTML you can create your own Website. This tutorial teaches you everything about HTML. HTML is easy to learn - You will enjoy it.",
         "startDate": "10/05/2015 12:00PM",
